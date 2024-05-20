@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteneur-case {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.bleu {
+    transform: translateY(-100%);
+    animation: slideY 1s ease forwards;
+}
+
+.rouge {
+    transform: translateX(100%);
+    animation: slide 1s ease forwards;
+}
+
+.jaune {
+    transform: translateX(-100%);
+    animation: slide 1s ease forwards;
+}
+
+.cb1 {
+    background: url('img/bleu1.png');
+    animation-delay: 0s;
+}
+
+.cb2 {
+    background: url('img/bleu2.png');
+    animation-delay: 200ms;
+}
+
+.cb3 {
+    background: url('img/bleu3.png');
+    animation-delay: 400ms;
+}
+
+.cb4 {
+    background: url('img/bleu4.png');
+    animation-delay: 600ms;
+}
+
+.cb5 {
+    background: url('img/bleu5.png');
+    animation-delay: 800ms;
+}
+
+.cb6 {
+    background: url('img/bleu6.png');
+    animation-delay: 1s;
+}
+
+.cb7 {
+    background: url('img/bleu7.png');
+    animation-delay: 1.2s;
+}
+
+.cb8 {
+    background: url('img/bleu8.png');
+    animation-delay: 1.4s;
+}
+
+.cb9 {
+    background: url('img/bleu9.png');
+    animation-delay: 1.6s;
+}
+
+
+.cr1 {
+    background: url('img/rouge1.png');
+
+}
+
+.cr2 {
+    background: url('img/rouge2.png');
+    animation-delay: 200ms;
+}
+
+.cr3 {
+    background: url('img/rouge3.png');
+    animation-delay: 400ms;
+}
+
+.cr4 {
+    background: url('img/rouge4.png');
+    animation-delay: 600ms;
+}
+
+.cr5 {
+    background: url('img/rouge5.png');
+    animation-delay: 800ms;
+}
+
+.cr6 {
+    background: url('img/rouge6.png');
+    animation-delay: 1s;
+}
+
+.cr7 {
+    background: url('img/rouge7.png');
+    animation-delay: 1.2s;
+}
+
+.cr8 {
+    background: url('img/rouge8.png');
+    animation-delay: 1.4s;
+}
+
+.cr9 {
+    background: url('img/rouge9.png');
+    animation-delay: 1.6s;
+}
+
+.cj1 {
+    background: url('img/jaune1.png');
+}
+
+.cj2 {
+    background: url('img/jaune2.png');
+    animation-delay: 200ms;
+}
+
+.cj3 {
+    background: url('img/jaune3.png');
+    animation-delay: 400ms;
+}
+
+.cj4 {
+    background: url('img/jaune4.png');
+    animation-delay: 600ms;
+}
+
+.cj5 {
+    background: url('img/jaune5.png');
+    animation-delay: 800ms;
+}
+
+.cj6 {
+    background: url('img/jaune6.png');
+    animation-delay: 1s;
+}
+
+.cj7 {
+    background: url('img/jaune7.png');
+    animation-delay: 1.2s;
+}
+
+.cj8 {
+    background: url('img/jaune8.png');
+    animation-delay: 1.4s;
+}
+
+.cj9 {
+    background: url('img/jaune9.png');
+    animation-delay: 1.6s;
+}
+
+.case {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: 40%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+@keyframes slide {
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideY {
+    100% {
+        transform: translateY(0);
+    }
+}
